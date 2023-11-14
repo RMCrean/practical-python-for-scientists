@@ -1,0 +1,66 @@
+site_name: Practical Python For Scientists
+
+repo_name: RMCrean/practical-python-for-scientists
+repo_url: https://github.com/RMCrean/practical-python-for-scientists
+
+theme:
+  name: material
+  features:
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - announce.dismiss
+    - navigation.tabs
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        selection:
+          docstring_style: numpy
+
+nav:
+  - Course Overview:
+    - Course Overview: index.md
+
+  - Day 1:
+    - Introduction: day1/day1_Intro.md
+    - Virtual Enviroments: day1/virtual_enviroments.md
+    - Another Part: day1/another_section.md
+    - Git and GitHub: day1/git_and_github.md
+  - Day 2:
+    - day2: day2.md
+  - Day 3:
+    - day3: day3.md
+  - Day 4:
+    - day4: day4.md
+  - Day 5:
+    - day5: day5.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
