@@ -10,3 +10,10 @@
 ### Teacher Contact details:
 - Name: Rory Crean 
 - Easiest way to reach me is by email: rory.crean@kemi.uu.se
+
+
+### TODO - DAY 1
+more advanced concepts, 
+try except, with statements
+can get them to fix code blocks that error without try except etc...
+

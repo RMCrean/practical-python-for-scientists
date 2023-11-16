@@ -23,7 +23,8 @@ Please make sure you have created an account with Github, [see instructions here
 
 ### Practical Tips: 
 
-- Use a .gitignore file to handle large data files or sensitive Information you don't want to include
+- Use a .gitignore file to handle large data files or sensitive Information you don't want to include.
+    These can be created automatically when you make a repository with GitHub or VSCode, with good defaults for python. 
 [TODO add pic here]
 
 

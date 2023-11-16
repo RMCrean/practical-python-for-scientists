@@ -15,18 +15,20 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/weather-night
         name: Switch to dark mode
       primary: teal
       accent: purple 
     - scheme: slate 
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode    
       primary: teal
       accent: lime
 plugins:
 - search
+- mkdocs-jupyter:
+    ignore_h1_titles: True
 - mkdocstrings:
     handlers:
       python:
@@ -38,18 +40,31 @@ nav:
     - Course Overview: index.md
 
   - Day 1:
-    - Introduction: day1/day1_Intro.md
+    - Introduction: day1/day1_intro.md
     - Virtual Enviroments: day1/virtual_enviroments.md
-    - Another Part: day1/another_section.md
+    - Integrated Development Environments and Jupyter Notebooks: day1/ides_jupyter.md
     - Git and GitHub: day1/git_and_github.md
+    - Project Structure: day1/project_structure.md
+    - Warm Up Exercises: day1/exercises/warm_up_exercises.ipynb
+    - Useful Python Functionality: day1/useful_python_functionality.md
+    - Apply what you've leaned: day1/exercises/exercise_python_functionality.ipynb 
+    - End of Day Overview: day1/day1_end.md
   - Day 2:
-    - day2: day2.md
+    - Introduction: day2/day2_intro.md
+    - Writing Cleaner Code: day2/cleaner_code.md
+    - Exercise, Clean Code: day2/exercises/improve_code_exercise.ipynb 
+    - Errors, Warnings, Bugs: day2/errors_warnings_bugs.md
+    - Exercise, Errors: day2/errors_bugs_exercise.ipynb
+    - End of Day Overview: day2/day2_end.md
   - Day 3:
-    - day3: day3.md
+    - Introduction: day3/day3_intro.md
+    - End of Day Overview: day4/day4_end.md
   - Day 4:
-    - day4: day4.md
+    - Introduction: day4/day4_intro.md
+    - End of Day Overview: day4/day4_end.md
   - Day 5:
-    - day5: day5.md
+    - Introduction: day5/day5_intro.md
+    - End of Day Overview: day5/day5_end.md
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,6 +1,3 @@
-# Virtual Enviroments
-
-
 ### What is a virtual enviroment? 
 A virtual environment in Python is a self-contained directory or folder that allows you to create and manage isolated Python environments for your projects. With environments you can easy manage your dependencies and avoid conflicts with different versions of python.
 
@@ -13,7 +10,7 @@ A virtual environment in Python is a self-contained directory or folder that all
 
 Python has several ways to create and manage virtual enviroments: 
 
-![virtual enviroments](assets/day1/virtual_enviroments.png)
+![virtual enviroments](../assets/day1/virtual_enviroments.png)
 
 **The 4 most well known are shown in the picture above and are:**
 
@@ -46,7 +43,7 @@ conda activate environment_name
 1. rename enviroment_name to something sensible for the given project. 
 
 2. You'll know you've succesfully activated the enviroment if the enviroment name is shown in brackets before the terminal. 
-![virtual enviroments](assets/day1/virtual_enviros_listed.png)
+![virtual enviroments](../assets/day1/virtual_enviros_listed.png)
 
 
 ### Installing programs 
