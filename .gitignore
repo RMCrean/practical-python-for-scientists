@@ -162,6 +162,7 @@ cython_debug/
 
 # vscode
 *.code-workspace
+.vscode
 
 # Code blocks for quizzes stored here. 
 mentimeter_content/
