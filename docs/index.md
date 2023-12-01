@@ -1,8 +1,9 @@
 ### Key Points 
 
 - Course is held at: B8:001, BMC [mazemap link](http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=identifier&sharepoi=BMC-B8:001a)
-- Course Start: 9 am
-- Room Booked Until: 5 pm (Teaching part finishes before lunch, after lunch there are group exercises/work). (You likely wont need to stay that long, but the room will be availalbe if you want it). 
+- Course week is: Monday the 8th January to Friday the 12th of January
+- Course start: 9 am
+- Room booked until: 5 pm (Teaching part finishes before lunch, after lunch there are group exercises/work). (You likely wont need to stay that long, but the room will be availalbe if you want it). 
 
 
 ### Teacher Contact details:

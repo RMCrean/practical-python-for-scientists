@@ -36,8 +36,7 @@ plugins:
           docstring_style: numpy
 
 nav:
-  - Course Overview:
-    - Course Overview: index.md
+  - Course Overview: index.md
 
   - Day 1:
     - Introduction: day1/day1_intro.md
@@ -51,6 +50,7 @@ nav:
     - End of Day Overview: day1/day1_end.md
   - Day 2:
     - Introduction: day2/day2_intro.md
+    - Variable Naming: day2/variable_naming.md
     - Writing Cleaner Code: day2/cleaner_code.md
     - Exercise, Clean Code: day2/exercises/improve_code_exercise.ipynb 
     - Errors, Warnings, Bugs: day2/errors_warnings_bugs.md
@@ -58,6 +58,8 @@ nav:
     - End of Day Overview: day2/day2_end.md
   - Day 3:
     - Introduction: day3/day3_intro.md
+    - Command Line Options with argparser: day3/arg_passer.md
+    - Regular Expressions: day3/regex.md
     - End of Day Overview: day4/day4_end.md
   - Day 4:
     - Introduction: day4/day4_intro.md

@@ -39,8 +39,10 @@ git config --global init.defaultBranch main
 
 Set the default text editor to use with git. You'll make use of this text editor when you for example write commit messages. I like to use vscode (you'll need to have it installed), you can choose something else or skip this step if you like. 
 ```
-git config --global core.editor [your text editor here]
+git config --global core.editor "[your text editor here] -w"
 ```
+
+[It doesn't matter but by adding `-w` we tell Git to wait for the code editor to force Git to wait your commit message that you would type on your custom editor.](https://stackoverflow.com/questions/9725160/aborting-commit-due-to-empty-commit-message#:~:text=When%20you%20set%20an%20editor%20in%20the%20configuration%20of%20Git%2C%20make%20sure%20to%20pass%20the%20parameter%20%22%2Dw%22%20to%20force%20Git%20to%20wait%20your%20commit%20message%20that%20you%20would%20type%20on%20your%20custom%20editor.)
 
 **You can confirm these commands worked by doing:**
 
@@ -159,7 +161,7 @@ Back to the powerpoint...
 
 ### Part 2.1, Make it easy to connect with GitHub via Git
 
-[To do this we'll follow a short pre-existing tutorial on exactly that.](https://coderefinery.github.io/installation/ssh/)
+[To do this we'll follow a short pre-existing tutorial on exactly that.](https://coderefinery.github.io/installation/ssh/). Follow the steps for SSH setup. 
 
 
 ### Part 2.2, Make a new repository with GitHub
@@ -266,7 +268,6 @@ git pull
 Now our local and remote versions are up to date again. 
 
 
-
 ### Part 2 - Summary so far:
 
 You saw after setting up the remote and local repositories we used the same two commands on top of the ones we already learned:
@@ -276,26 +277,27 @@ git push
 git pull
 ```
 
+For projects that you work on alone, that's not far from the truth
+
 Back to the powerpoint... 
 
 ## Hands on Session - Part 3, Branches and Merging
 
-**3. Branch:**
-Branching lets you have different versions of a repository at one time. By default, your repository has one branch named `main` (sometimes called `master` instead) that is considered to be the definitive/central branch.
-Typically a branch is used to work on new features or bug fixes without affecting the main codebase until you are ready to merge the changes.
+- **Recap: Branch** Branching lets you have different versions of a repository at one time. By default, your repository has one branch named `main` (sometimes called `master` instead) that is considered to be the definitive/central branch. Typically a branch is used to work on new features or bug fixes without affecting the main codebase until you are ready to merge the changes.
 
-**4. Merge:**
-Merging combines changes from different branches into a single branch, typically changes are merged into the `main` branch.
+- **Recap: Merge** Merging combines changes from different branches into a single branch, typically changes are merged into the `main` branch.
 
 
 
+### Part 3.1, TODO.
 
+### Part 3.2, TODO.
 
+### Part 3.3, TODO.
 
+### Part 3.4, TODO.
 
-
-
-
+### Part 3.5, TODO.
 
 ## Appendix 
 
@@ -320,8 +322,8 @@ Merging combines changes from different branches into a single branch, typically
 - [Code refinery tutorial on git, highly recommended.](https://coderefinery.github.io/git-intro/)
 - TODO
 
-### GitHub
-GitHub is a place to store Git repositories (among other things). You don't need to use GitHub to use Git for example [bitbucket](https://bitbucket.org/product/) and [GitLab](https://about.gitlab.com/) offer very similar functionality. That said, we will use GitHub throughout this course. 
+### GitHub Alternatives 
+As you hopefully now appreciate, you don't need to use GitHub to use Git. Alternative places to host remote repositories include for example [bitbucket](https://bitbucket.org/product/) and [GitLab](https://about.gitlab.com/) and they tend to offer very similar functionality. 
 
 
 

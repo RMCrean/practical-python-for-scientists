@@ -1,5 +1,3 @@
-
-
 ## Type Hints:
 Type hints allow you to annotate functions and classes you create to indicate the datatype the arguement accepts. 
 
@@ -50,7 +48,14 @@ What should the type hints be here?
 def multiply_two_numbers(number_1: float, number_2: float) -> float:
     return number_1 * number_2
 ```
-You may have been tempted to write `int` or `Union[float, int]`. But in this case, by saying we can take a float we can take an int.  
+
+<details>
+  <summary>Click to reveal awnser</summary>
+  You may have been tempted to write `int` or `Union[float, int]`. But in this case, by saying we can take a float, we imply we can take an int. 
+
+</details>
+
+ 
 
 
 
@@ -69,31 +74,13 @@ Remember, type hints are a way to provide hints to developers and tools about th
 ## Comments:
 Use comments sparingly, 
 
-## Variable Naming
-Variable names should be clear and descriptive 
 
-#### Naming Regular Objects:
-
-#### Naming Classes:
-Classes in python are typically named in CamelCase format. 
-If you see an object
-
-#### Naming Constants:
-Constants are things that don't change from start to finish in your code. When you or someone else uses your code it can be useful to explicity label that these things are constant. In Python we do this by naming the object in ALL_CAPITALS.
-
-In a script, constants should be provided at the top of the file after the imports and before any code:
-
-**Some example constants**
-```
-PI_2_DECIMAL_PLACES = 3.14
-INPUT_FILE_PATH = r"folder1/folder2/file_name.txt"
-SCREEN_RESOLUTION = (1280, 720)
-```
+ 
 
 
 
 ### f-strings:
-Type hints explanation
+
 
 
 
