@@ -40,7 +40,7 @@ This script can then be run with:
 
 In this example, the script takes two command-line arguments (--input, and --output). The argparse module is used to define these arguments, set their types and default values, and then parse the command-line input.
 
-As shown in the script, we can access the value of each arguement using `args.input` or `args.output` within our script.
+As shown in the script, we can access the value of each argument using `args.input` or `args.output` within our script.
 
 
 ### Practice using argparser:

@@ -37,13 +37,14 @@ plugins:
 
 nav:
   - Course Overview: index.md
-
   - Day 1:
     - Introduction: day1/day1_intro.md
-    - Virtual Enviroments: day1/virtual_enviroments.md
-    - Integrated Development Environments and Jupyter Notebooks: day1/ides_jupyter.md
-    - Git and GitHub: day1/git_and_github.md
     - Project Structure: day1/project_structure.md
+    - Virtual Environments: day1/virtual_environments.md
+    - Integrated Development Environments and Jupyter Notebooks: day1/ides_jupyter.md
+    - Getting Started With Git: day1/git_intro.md
+    - Git and GitHub Combined: day1/git_and_github.md
+    - Branches and Merging: day1/git_branch_merge.md
     - Warm Up Exercises: day1/exercises/warm_up_exercises.ipynb
     - Useful Python Functionality: day1/useful_python_functionality.md
     - Apply what you've leaned: day1/exercises/exercise_python_functionality.ipynb 
