@@ -8,4 +8,11 @@ well named files, not try 1..
 
 New project, new folder.
 
-Close to home with no spaces. 
+Close to home with no spaces.
+
+
+### How I like to setup a project folder:
+
+
+
+

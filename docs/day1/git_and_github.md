@@ -8,15 +8,15 @@
 
 Using GitHub to create the repository can be quite useful as you can get some useful files for free:
 
-- README - this will be displayed on the front page of the repository making it a great place to provide a summary of the project. 
-- .gitignore - Language specific .gitignore files with plenty of file extensions you wont want to upload to GitHub already defined for you. 
+- README - this will be displayed on the front page of the repository making it a great place to provide a summary of the project.
+- .gitignore - Language specific .gitignore files with plenty of file extensions you wont want to upload to GitHub already defined for you.
 - License - A license file for your project (if you're not sure what license to pick when you create the code, you can always add it later).
 
 Now use github to make a new repository, make sure to add a README file, .gitignore (specific for the programming language you use) and License (don't worry about which one you pick).
 
 
 Once made, it should look like something like this:
-![created repo](assets/day1/git_example_created_repo.png)
+![created repo](../assets/day1/git_example_created_repo.png)
 
 Note that we can upload files and edit files directly with GitHub.
 
@@ -29,7 +29,7 @@ We'll update the README with some more text. Click on the README file and then c
 
 The README file is a [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) file, with extension ".md". This allows you to easily format the document, [see this GitHub guide on markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Fun fact, The document you're reading right now was written in markdown.
 
-**Task:** Update the README on GitHub with some markdown formatted content, include things like some bullet points, an extra title and some text in bold. [Use this markdown guide from GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to help you if you don't know the syntax. 
+**Task:** Update the README on GitHub with some markdown formatted content, include things like some bullet points, an extra title and some text in bold. [Use this markdown guide from GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to help you if you don't know the syntax.
 
 **Tip:** Regularly swap between the edit and preview modes to check you're formatting correctly.
 
@@ -41,7 +41,7 @@ As we covered in the powerpoint, the GitHub repository is a "remote" version of 
 
 To make a local copy we'll need to clone it. Use the SSH option that we setup in Part 2.1
 
-![git clone location on GitHub](assets/day1/git_clone_option.png)
+![git clone location on GitHub](../assets/day1/git_clone_option.png)
 
 Then in a terminal do:
 
@@ -127,9 +127,9 @@ git status # old
 git add [files_to_add] # old
 git commit # old
 git push # new
-git pull # new 
+git pull # new
 ```
 
-For projects that you work on alone, that's not too far from the truth once you're setup. 
+For projects that you work on alone, that's not too far from the truth once you're setup.
 
 Back to the powerpoint...
