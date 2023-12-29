@@ -18,11 +18,11 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
       primary: teal
-      accent: purple 
-    - scheme: slate 
+      accent: purple
+    - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode    
+        name: Switch to light mode
       primary: teal
       accent: lime
 plugins:
@@ -47,13 +47,20 @@ nav:
     - Branches and Merging: day1/git_branch_merge.md
     - Warm Up Exercises: day1/exercises/warm_up_exercises.ipynb
     - Useful Python Functionality: day1/useful_python_functionality.md
-    - Apply what you've leaned: day1/exercises/exercise_python_functionality.ipynb 
+    - Apply what you've leaned: day1/exercises/exercise_python_functionality.ipynb
     - End of Day Overview: day1/day1_end.md
   - Day 2:
     - Introduction: day2/day2_intro.md
     - Variable Naming: day2/variable_naming.md
-    - Writing Cleaner Code: day2/cleaner_code.md
-    - Exercise, Clean Code: day2/exercises/improve_code_exercise.ipynb 
+    - Documentation: day2/documentation.md
+    - F-Strings: day2/f_strings.md
+    - Type Hinting: day2/type_hints.md
+    - The Pep8 style guide: day2/pep8.md
+    - Autoformaters and Linting: day2/autoformat_linting.md
+    - Design Principles: day2/design_principles.md
+    - Exercise, Clean Code: day2/exercises/improve_code_exercise.ipynb
+
+
     - Errors, Warnings, Bugs: day2/errors_warnings_bugs.md
     - Exercise, Errors: day2/errors_bugs_exercise.ipynb
     - End of Day Overview: day2/day2_end.md

@@ -1,25 +1,19 @@
-Day 2 will focus on writing cleaner code and how to 
+Day 2 will focus on writing cleaner code and how to make use of python to write cleaner code.
+
+The following topics will be covered:
+1. Variable naming
+2. Documentation
+3. f strings.
+4. Type hints.
+5. The Pep8 style guide
+6. Autoformaters and Linting
+7. Bad habits and what to do instead.
+8. Design principles
+9. Formatting a python script.
+
+There will also be several practical sections where we'll go through making code cleaner.
 
 
-
-The following topics will be covered: 
-- Documentation
-- Variable naming
-- Type hints
-- f strings
-- Pep8 and autoformaters. 
-- Linting 
-- Bad habits and what to do instead. 
-- DRY (Don't Repeat Yourself). 
-- Single responsiblity principle.
-- Function Length and Complexity:
-
-
-
-# f strings
-# CASING, CONSTANTS
-# TYPE HINTS 
-# DISCUSS PEP8 
 
 
 
