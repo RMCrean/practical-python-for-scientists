@@ -39,18 +39,27 @@ nav:
   - Course Overview: index.md
   - Day 1:
     - Introduction: day1/day1_intro.md
+
+    # morning session - 
     - Project Structure: day1/project_structure.md
     - Virtual Environments: day1/virtual_environments.md
     - Integrated Development Environments and Jupyter Notebooks: day1/ides_jupyter.md
-    - Getting Started With Git: day1/git_intro.md
-    - Git and GitHub Combined: day1/git_and_github.md
-    - Branches and Merging: day1/git_branch_merge.md
     - Warm Up Exercises: day1/exercises/warm_up_exercises.ipynb
-    - Useful Python Functionality: day1/useful_python_functionality.md
+    # afternoon session - python functionality, basics... 
+    - Data Structures: day1/data_structures.ipynb
+    - Useful Python Functionality: day1/useful_python_functionality.ipynb
+    - Try Except: day1/try_except.md
     - Apply what you've leaned: day1/exercises/exercise_python_functionality.ipynb
+    # afternoon session finished
     - End of Day Overview: day1/day1_end.md
+
   - Day 2:
     - Introduction: day2/day2_intro.md
+    # morning session - git + github
+    - Getting Started With Git: day2/git_intro.md
+    - Git and GitHub Combined: day2/git_and_github.md
+    - Branches and Merging: day2/git_branch_merge.md
+    # afternoon session - clean code. 
     - Variable Naming: day2/variable_naming.md
     - Documentation: day2/documentation.md
     - F-Strings: day2/f_strings.md
@@ -59,22 +68,40 @@ nav:
     - Autoformaters and Linting: day2/autoformat_linting.md
     - Design Principles: day2/design_principles.md
     - Exercise, Clean Code: day2/exercises/improve_code_exercise.ipynb
-
-
-    - Errors, Warnings, Bugs: day2/errors_warnings_bugs.md
-    - Exercise, Errors: day2/errors_bugs_exercise.ipynb
+    # afternoon session finished
     - End of Day Overview: day2/day2_end.md
+
   - Day 3:
     - Introduction: day3/day3_intro.md
+    # morning session - Own code, regex + command line 
+    - Installing your own code: day3/installing_own_code.md
     - Command Line Options with argparser: day3/arg_passer.md
     - Regular Expressions: day3/regex.md
-    - End of Day Overview: day4/day4_end.md
+    - Errors, Warnings, Bugs: day3/errors_warnings_bugs.md # TODO
+    - Exercise, Errors: day3/errors_bugs_exercise.ipynb # TODO 
+    # afternoon session - pandas + numpy  
+    - NumPy and Pandas Self Study: day3/numpy_pandas.md
+
+    # afternoon session finished
+    - End of Day Overview: day3/day3_end.md
+
   - Day 4:
     - Introduction: day4/day4_intro.md
+
+    # morning session - Figure Making
+    - Plotly: day4/plotly_into.md 
+    - Plotly Basics Notebook: day4/plotly_ipython-notebook-tutorial.ipynb
+
+    - Exercise on Figure Making: day4/figure_making_challenges.md
+
+    # afternoon session -
+    
+    
+    # afternoon session finished
     - End of Day Overview: day4/day4_end.md
+
   - Day 5:
-    - Introduction: day5/day5_intro.md
-    - End of Day Overview: day5/day5_end.md
+    - Project Planning: day5/project_planning.md
 
 markdown_extensions:
   - pymdownx.highlight:
