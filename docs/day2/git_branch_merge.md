@@ -4,7 +4,7 @@
 
 - **Merge** Merging combines changes from different branches into a single branch, typically changes are merged into the `main` branch.
 
-![git branching and merging visualized](../assets/day1/git_branches_merging_not_mine.png)
+![git branching and merging visualized](../assets/day2/git_branches_merging_not_mine.png)
 <sub><sup>Image taken from coderefinery: https://coderefinery.github.io/git-intro/branches/ </sup></sub>
 
 ---
@@ -96,7 +96,7 @@ git push -u origin new-feature-pull
 It's not important right now to understand but the `-u` is short for `--set-upstream` option, which essentially sets up our `git pull` or `git push` commands for this new branch.
 
 Now head over to GitHub and go to the main page of your repository, where you should see a message like this:
-![pull request option showing up on GitHub](../assets/day1/git_pull_request_appear.png)
+![pull request option showing up on GitHub](../assets/day2/git_pull_request_appear.png)
 
 If we click to "compare and pull" we can start the pull request process. 
 

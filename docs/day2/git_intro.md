@@ -66,7 +66,7 @@ git status
 
 This command gives a report on the current status of our repository. Think back to the picture we saw in the presentation:
 
-![3 stages of git committing](../assets/day1/git_repo_3_stages_not_mine.png)
+![3 stages of git committing](../assets/day2/git_repo_3_stages_not_mine.png)
 <sub><sup>Image from the Pro Git Book: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F</sup></sub>
 
 The git status command will tell us where our different files are at in these steps. Of course, right now we have no files.

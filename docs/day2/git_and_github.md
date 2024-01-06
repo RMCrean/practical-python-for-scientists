@@ -16,7 +16,7 @@ Now use github to make a new repository, make sure to add a README file, .gitign
 
 
 Once made, it should look like something like this:
-![created repo](../assets/day1/git_example_created_repo.png)
+![created repo](../assets/day2/git_example_created_repo.png)
 
 Note that we can upload files and edit files directly with GitHub.
 
@@ -41,7 +41,7 @@ As we covered in the powerpoint, the GitHub repository is a "remote" version of 
 
 To make a local copy we'll need to clone it. Use the SSH option that we setup in Part 2.1
 
-![git clone location on GitHub](../assets/day1/git_clone_option.png)
+![git clone location on GitHub](../assets/day2/git_clone_option.png)
 
 Then in a terminal do:
 
