@@ -43,6 +43,8 @@ Try to keep the presentation less than 5 minutes long and focus
 
 Things your unsure about or help you might need. 
 
+---
+
 ### Bonus/Optional Requirements:
 - Use git to track your progress and publish your work on GitHub (you can of course keep the repository private if it should not be shared yet - e.g. work towards a publication)
 - Write tests as you go to validate your work.  

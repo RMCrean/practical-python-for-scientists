@@ -1,1 +1,1 @@
-Today will focus on making figures. 
+Today will focus on making figures and testing code. 

@@ -43,7 +43,6 @@ nav:
     - Virtual Environments: day1/virtual_environments.md
     - Integrated Development Environments and Jupyter Notebooks: day1/ides_jupyter.md
     - Useful Python Functionality: day1/useful_python_functionality.ipynb
-    - Errors and Warnings: day1/understanding_errors.md
     - Handling Exceptions: day1/try_except.md
     - Independent work: day1/independent_work.md
     - End of Day Overview: day1/day1_end.md
@@ -76,12 +75,11 @@ nav:
   - Day 4:
     - Introduction: day4/day4_intro.md
     - Plotly: day4/plotly_into.md 
-    - Plotly Basics Notebook: day4/plotly_ipython-notebook-tutorial.ipynb
+    - Plotly Basics Notebook: day4/plotly_basics.ipynb
     - Exercise on Figure Making: day4/figure_making_challenges.md
     - Independent work: day4/independent_work.md
     - End of Day Overview: day4/day4_end.md
   
-
   - Day 5:
     - Project Planning: day5/project_planning.md
 

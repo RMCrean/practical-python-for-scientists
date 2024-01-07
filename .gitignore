@@ -167,4 +167,6 @@ cython_debug/
 # Code blocks for quizzes stored here. 
 mentimeter_content/
 
-unassinged_content
+# content such as answers that shouldn't be shared yet
+unassinged_content/
+exercise_solutions/

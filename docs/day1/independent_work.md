@@ -54,3 +54,10 @@ If you're not already familiar with working with command lines, it is a really u
 
 [If you're already quite experienced with the command line take a look at this](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md)
 
+---
+
+### Topic 4: The Stack Trace
+
+The Stack trace shows us the parts of the program that was running at the time the code gave an error or threw an exception. The stack trace in python is presented to use using the traceback and understanding the contents of the traceback (the error message we receive) will make you better and understanding how to fix problems in your code. 
+
+**Assignment:** [Read this tutorial on tracebacks](https://realpython.com/python-traceback/) in Python to get a better understanding of how they work. 

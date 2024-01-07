@@ -134,13 +134,13 @@ SomeProject == 1.3
 SomeProject >= 1.2, < 2.0
 ```
 
-These are constraints on the version of the package that can be used. This will be read by the installer to constrain it to this version. 
+These are constraints on the version of the package that can be used. This will be read by the installer. 
 
 ---
 
 
-### What about containers?
-Containers such as [Docker](https://docs.docker.com/get-started/overview/) and [Singularity](https://sylabs.io/singularity/) offer an even more robust way to create a reproducible environment by creating containers. For most programming projects involving scientific data analysis, virtual environments should suffice, so these are not covered in this course. If you do plan to learn a tool to run/make Containers, consider that the [university's HPC prefer Singularity over Docker.](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
+### What about Containers?
+Containers which can be created and run by programs like [Docker](https://docs.docker.com/get-started/overview/) and [Singularity](https://sylabs.io/singularity/) offer a very robust way to create a reproducible environment through creating "containers". For most programming projects involving scientific data analysis, virtual environments should suffice, so these are not covered in this course. If you do plan to learn a tool to run/make Containers, consider that the [university's HPC prefer Singularity over Docker.](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
 
 ---
 
