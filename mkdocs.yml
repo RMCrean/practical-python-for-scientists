@@ -43,6 +43,7 @@ nav:
     - Virtual Environments: day1/virtual_environments.md
     - Integrated Development Environments and Jupyter Notebooks: day1/ides_jupyter.md
     - Useful Python Functionality: day1/useful_python_functionality.ipynb
+    - Errors and Warnings: day1/understanding_errors.md
     - Handling Exceptions: day1/try_except.md
     - Independent work: day1/independent_work.md
     - End of Day Overview: day1/day1_end.md
@@ -56,10 +57,9 @@ nav:
     - End of Git and GitHub Session: day2/git_end.md
     # clean code section 
     - Variable Naming: day2/variable_naming.md
-    - Documentation: day2/documentation.md
     - F-Strings: day2/f_strings.md
     - Type Hinting: day2/type_hints.md
-    - Design Principles: day2/design_principles.md
+    - Formatting a Python Script: day2/format_script.md
     - Exercise, Clean Code: day2/clean_code_exercise/improve_code_exercise.ipynb
     - Independent work: day2/independent_work.md
     - End of Day Overview: day2/day2_end.md
@@ -70,14 +70,11 @@ nav:
     - Installing your own code: day3/installing_own_code.md
     - Command Line Options with argparser: day3/arg_passer.md
     - Regular Expressions: day3/regex.md
-    - Errors, Warnings, Bugs: day3/errors_warnings_bugs.md # TODO
-    - Exercise, Errors: day3/errors_bugs_exercise.ipynb # TODO 
     - NumPy and Pandas Self Study: day3/numpy_pandas.md
     - End of Day Overview: day3/day3_end.md
 
   - Day 4:
     - Introduction: day4/day4_intro.md
-
     - Plotly: day4/plotly_into.md 
     - Plotly Basics Notebook: day4/plotly_ipython-notebook-tutorial.ipynb
     - Exercise on Figure Making: day4/figure_making_challenges.md

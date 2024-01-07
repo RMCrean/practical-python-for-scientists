@@ -26,6 +26,26 @@ For example the object ```x = [5, 10, 13, 14]``` is of type: ```list[int]```. Me
 
 ---
 
+### How to add type hints to functions
+Functions and classes are often defined with type hints.
+
+Here is an example of a simple function with type hints added:
+
+```
+def degrees_to_kelvin(temp_degrees: float) -> float:
+    """Convert a temperature from units degrees to kelvin"""
+    return temp_degrees + 273.15
+
+# example usage:
+degrees_to_kelvin(temp_degrees=27)
+# output: 300.15
+```
+
+- The input parameter `temp_degrees` is assigned a type float.
+- The output of the function is shown by what comes after the `->`. This is also a float.
+
+---
+
 #### Special type hints
 
 Included in the Python typing package are special type hints that represent
@@ -36,25 +56,46 @@ Included in the Python typing package are special type hints that represent
 To use these type hints you'll need to import them, for example:
 
 ```
-TODO from typing import....
-Then show an example use of it.
+from typing import Any, Union
 ```
 
----
-
-### How to add type hints to functions
-Functions and classes are often defined with type hints.
-
-Here is an example of a simple function with type hints added:
+Here is an example usage of `Any`. We can use the type hint `Any` here as we do not modify the keys of the dictionary so our code is not dependant on its type. 
 
 ```
-def degrees_to_kelvin(temp_degrees: float) -> float:
-  """Convert a temperature from units degrees to kelvin"""
-    return TODO
-```
+from typing import Any
 
-- The input parameter `temp_degrees` is assigned a type float.
-- The output of the function shown by what comes after the `->` is also a float.
+def normalise_dict_values(original_dict: dict[Any, float]) -> dict[Any, float]:
+    """
+    Normalise a set of dictionary values to have max value of 1.
+    Returns the dictionary without modifying the keys.
+
+    Parameters
+    ----------
+    original_dict: dict[Any, float]
+        dictionary to normalise
+
+    Returns
+    ----------
+    dict[Any, float]
+        normalised dictionary
+    """
+    max_score = max((original_dict.values()))
+
+    updated_dict = {}
+    for key, value in original_dict.items():
+        new_score = value / max_score
+        updated_dict[key] = new_score
+
+    return updated_dict
+
+# Example usage: 
+input_dict = {'Value1': 10, 'Value2': 20, 'Value3': 5}
+normalized_dict = normalise_dict_values(input_dict)
+print(normalized_dict)
+
+# output: {'Value1': 0.5, 'Value2': 1.0, 'Value3': 0.25}
+
+```
 
 ---
 
@@ -99,15 +140,48 @@ Note that we can't use type hints alone to specify which object comes out first,
 ---
 
 #### Type hints for 3rd party library objects
-TODO - pd.dataframe
 
+We can also use type hints on 3rd party library objects like a Pandas DataFrame or NumPy arrays. 
 
+Here is an example function that does exactly that: 
 
+```
+import pandas as pd
+import numpy as np 
+from typing import  Union
 
+def array_to_dataframe(data: Union[list, np.ndarray], columns: list[str]) -> pd.DataFrame:
+    """
+    Convert some data and a corresponding list of column names to a Pandas DataFrame.
 
+    Parameters
+    ----------
+    data : Union[list, np.ndarray]
+        The input array or list.
+    columns : List[str]
+        The list of column names.
+
+    Returns
+    -------
+    pd.DataFrame
+        The Pandas DataFrame created from the input array and column names.
+    """
+    if isinstance(data, np.ndarray):
+        df = pd.DataFrame(data, columns=columns)
+    elif isinstance(data, list):
+        df = pd.DataFrame([data], columns=columns)
+    else:
+        raise ValueError("Unsupported data type. Use either a list or np.ndarray.")
+
+    return df
+
+# Example usage:
+data = np.array([[1, 2], [3, 4], [5, 6]])
+column_names = ['Column1', 'Column2']
+df = array_to_dataframe(data, column_names)
+```
 
 ---
-
 
 ### Question: What should the type hints be for the function below?
 
@@ -140,7 +214,7 @@ The answers will be added at the end of the day.
 
 ### Summary:
 
-Remember, type hints are a way to provide hints to developers and users about the expected types of different objects in your code. They are not enforced by the Python interpreter at runtime. If you want to enforce type checking you can look into tools like [mypy](https://mypy-lang.org/). 
+Type hints are a way to provide hints to developers and users about the expected types of different objects in your code. They are not enforced by the Python interpreter at runtime. If you want to enforce type checking you can look into tools like [mypy](https://mypy-lang.org/). 
 
 ---
 

@@ -21,14 +21,13 @@ Markdown is simple language to make formatted text documents. It's useful way to
 Have a read of this: https://code.visualstudio.com/docs/python/formatting 
 </details>
 
-
 ---
 
-### Topic 3: Practice using Git and GitHub
+### Topic 3: Code Documentation 
 
-The best way to get comfortable with Git and GitHub is to start using them. 
+We have discussed several aspects of writing good code. One area we have partially touched on is code documentation (for example with type hints and variable names). S
 
-**Assignment:** Try out incorporating Git and GitHub on an existing or new project. 
+**Assignment:** Search for good practices surrounding code documentation. The links below are a good place to start. 
 
-
-TODO - another topic could be design principles...? 
+- [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
+- [Video: How to Document Your Code Like a Pro](https://www.youtube.com/watch?v=L7Ry-Fiij-M)
