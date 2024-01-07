@@ -35,35 +35,77 @@ message = "Hello, my name is %s and I am %d years old." % (name, age)
 
 **2. Using Concatenation:**
 ```
-# awkward because have to take care get the spacing correct.
+# awkward because have to take care to get the spacing correct.
 name = "Alice"
 age = 30
 message = "Hello, my name is " + name + " and I am " + str(age) + " years old."
 ```
 
 
-
-
-
 ---
 
-#### f-strings work with expressions
+#### f-strings can directly evaluate expressions and run functions 
 
-TODO, e.g. can do calculations, index dictionary etc...
+An f-string can directly evaluate expressions and run functions.  
+
+
+For example, below the expression `a + b` is determined inside the expression: 
+```
+a = 5
+b = 7
+result = f'The sum of {a} and {b} is {a + b}'
+```
+
+In the example below, we call the function `square` inside the function. 
+```
+def square(x):
+    return x ** 2
+
+num = 4
+result = f'The square of {num} is {square(num)}'
+```
 
 ---
-
 
 #### f-string formatting
 
-TODO
-format decimals etc...
+You can also format the presentation of numerical values, such as specifying the number of decimal places for a floating-point number.
+
+Here are some examples: 
+
+```
+# control decimal places
+pi = 3.141592653589793
+print(f"The value of pi is approximately {pi:.2f}.")
+# output: The value of pi is approximately 3.14.
+```
+
+```
+# use scientific notation
+large_number = 1000000
+print(f"The number in scientific notation: {large_number:.2e}.")
+# output: "The number in scientific notation: 1.00e+06."
+```
+
+```
+# add commas between each 1000
+population = 1000000
+print(f"The formatted population is: {population:,}.")
+# output: The formatted population is: 1,000,000.
+```
+
+```
+# convert between decimal to percentage
+success_rate = 0.85
+print(f"The success rate as a percentage: {success_rate:.1%}.")
+# output: The success rate as a percentage: 85.0%.
+```
 
 ---
 
 #### f-strings for print debugging.
 
-If you ever do print debugging, it is good to know about the `=` symbol. This will mean both the variable's name and contents are printing to the screen.
+If you ever do print debugging, it is good to know about the `=` symbol. This will mean both the variable's name and contents will be printed to the screen.
 
 **For example:**
 
@@ -92,9 +134,44 @@ Essentially, by using {variable_name=}, you not only print the value of the vari
 
 #### Bonus - raw strings
 
-- what is raw string.
-- you can combine a raw and f-string.
+In Python, a raw string is a string prefixed with an `r` or `R` (doesn't make any difference which you use). Raw strings are used to treat backslashes `(\)` as literal characters, [rather than as escape characters](https://www.guru99.com/python-escape-characters.html). This can be particularly useful in scenarios where you want to work with regular expressions, file paths, or any other strings containing backslashes without having to escape them.
 
+Raw strings come in handy when for example working with windows file paths:
+
+```
+file_path = r"C:\Users\Username\Documents\example.txt"
+print(file_path)
+```
+
+Meaning you don't need to escape all of the backslashes `(\)` in the file path. 
+
+Another place they can come in handy is when working with regular expressions, which will be covered in more detail tomorrow: 
+```
+import re
+pattern = r"\d+"
+text = "There are 42 apples and 18 oranges."
+result = re.findall(pattern, text)
+print(result)  # Output: ['42', '18']
+```
+In the example above, the regex pattern `r"\d+"` is a raw string, and is used to extract all the digits from the text. 
+
+
+Finally, note that you can combine a raw and f-string together (the ordering of the `r` and `f` does not matter in the example below)
+
+```
+files = ["example_1.txt", "example_2.txt", "example_3.txt"]
+
+for file in files:
+    file_path = rf"C:\Users\Username\Documents\{file}"
+    print(file_path)
+```
+
+This would output the following: 
+```
+C:\Users\Username\Documents\example_1.txt
+C:\Users\Username\Documents\example_2.txt
+C:\Users\Username\Documents\example_3.txt
+```
 
 ---
 

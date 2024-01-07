@@ -1,19 +1,4 @@
-## Day 1 
+Day 1 will provide an introduction to the course before going through some useful tools that can help make your coding experience easier. 
 
-### Quick Summary
-
-- Course is held at: B8:001, BMC [mazemap link](http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=identifier&sharepoi=BMC-B8:001a)
-- Course Start: 9 am
-- Room Booked Until: 5 pm (Teaching part finishes before lunch, after lunch there are group exercises/work).
-
-
-### Teacher Contact details:
-- Name: Rory Crean 
-- Easiest way to reach me is by email: rory.crean@kemi.uu.se
-
-
-### TODO - DAY 1
-more advanced concepts, 
-try except, with statements
-can get them to fix code blocks that error without try except etc...
+We will then go through some useful built in tools in with the main Python library alongside the "Pythonic" way to handle errors. 
 

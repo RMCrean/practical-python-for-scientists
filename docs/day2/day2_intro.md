@@ -1,20 +1,8 @@
-Day 2 will focus on writing cleaner code and how to make use of python to write cleaner code.
-
-The following topics will be covered:
-1. Variable naming
-2. Documentation
-3. f strings.
-4. Type hints.
-5. The Pep8 style guide
-6. Autoformaters and Linting
-7. Bad habits and what to do instead.
-8. Design principles
-9. Formatting a python script.
-
-There will also be several practical sections where we'll go through making code cleaner.
+Today will focus on using Git and GitHub for version control and then how to write cleaner code in Python. 
 
 
+### Before the session on Git and GitHub: 
 
+- You should have ideally created an account on GitHub, [click here to create one now if not](https://github.com) 
 
-
-END OF DAY READING CAN BE PEP8 AS AN EXAMPLE.
+- You can also [setup 2 factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) for your GitHub account which is recommended. I like to use the [Google Authenticator app](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&pli=1) to do this but there are many other viable options. 
