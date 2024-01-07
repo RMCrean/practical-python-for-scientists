@@ -1,8 +1,9 @@
 # Practical Python For Scientists
 Course Material for the week long PhD student course titled: Practical Python Programming for Scientists. 
 
-### Key Points 
+The course material is hosted on the web using GitHub pages: https://rmcrean.github.io/practical-python-for-scientists/ 
 
+### Key Points 
 - Course is held at: B8:001, BMC [mazemap link](http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=identifier&sharepoi=BMC-B8:001a)
 - Course week is: Monday the 8th January to Friday the 12th of January
 - Course start: 9 am
